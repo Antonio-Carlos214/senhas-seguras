@@ -129,6 +129,13 @@ label{
     position: relative;
     bottom: 30px;
 }
+.media{
+    height: 30px;
+    width: 50%;
+    background-color: #FAF408;
+    position: relative;
+    bottom: 30px;
+}
 .parametro-senha_-texto{
     display: flex;
     justify-content: space-between;
