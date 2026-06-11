@@ -115,6 +115,13 @@ label{
     height: 20px;
     cursor: pointer;
 }
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
