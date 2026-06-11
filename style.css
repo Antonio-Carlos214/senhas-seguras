@@ -129,7 +129,10 @@ label{
     position: relative;
     bottom: 30px;
 }
-
+.parametro-senha_-texto{
+    display: flex;
+    justify-content: space-between;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
