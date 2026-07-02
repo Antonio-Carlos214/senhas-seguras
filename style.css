@@ -91,11 +91,12 @@ body{
 }
 
 .parametro-senha__botao{
-    background-color: var(--cor-de-fundo);
-    color:var(--branco);
+    background-color: var(--fundo-texto);
+    color: var(--branco);
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
+    cursor: pointer;
 }
 .parametro-senha__texto{
     padding: 24px;
@@ -105,7 +106,6 @@ body{
     font-size: 24px;
 }
 
-
 label{
     font-size: 20px;
 }
@@ -114,13 +114,12 @@ label{
     width: 20px;
     height: 20px;
     cursor: pointer;
-    border: 1px solid var(--borda)
 }
 
 .barra{
     background-color: var(--fundo-senha);
     height: 30px;
-    width: 100%; 
+    width: 100%;
 }
 .forca{
     height: 30px;
@@ -129,20 +128,22 @@ label{
 }
 .fraca{
     width: 25%;
-    background-color: #E71B32;
+    background-color: #E71B32; 
 }
 .media{
-    width: 50%;
     background-color: #FAF408;
+    width: 50%;
 }
 .forte{
-    background-color: #00ff85;
+    background-color: #00FF85;
+    width: 100%;
 }
 
-.parametro-senha_-texto{
+.parametro-senha-textos{
     display: flex;
     justify-content: space-between;
 }
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
